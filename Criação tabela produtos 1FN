@@ -1,0 +1,26 @@
+/*comando para criar um banco de dados*/
+CREATE DATABASE estoque;
+
+/*
+comando para colocar o banco em uso
+*/
+
+USE estoque;
+CREATE TABLE produtos(
+id INTEGER PRIMARY KEY AUTO_INCREMENT,
+nome varchar (100),
+preco float,
+categoria int
+);
+
+INSERT INTO produtos (id, nome, preco, categoria) VALUES
+(1, 'Smartphone Samsung Galaxy A15', 1199.00, 'Eletrônicos'),
+(2, 'Tênis Nike Revolution 6', 279.99, 'Moda'),
+(3, 'Livro "A Menina que Roubava Livros"', 42.90, 'Livros');
+
+SELECT * FROM produtos;
+
+SELECT * FROM produtos
+WHERE categoria = 'Moda';
+
+SELECT COUNT(*) AS total_produtos FROM produtos;
