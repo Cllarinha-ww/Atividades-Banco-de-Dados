@@ -1,0 +1,21 @@
+-- Criar a tabela
+CREATE TABLE produtos (
+id INT PRIMARY KEY,
+nome VARCHAR(100),
+preco DECIMAL(10,2),
+categoria VARCHAR(50)
+);
+SELECT * FROM produtos
+WHERE categoria = 'Eletronicos';
+SELECT * FROM produtos
+WHERE nome LIKE 'T%';
+SELECT COUNT(*) AS quantidade_produtos_acima_100
+FROM produtos
+WHERE preco > 100;
+SELECT AVG(preco) AS media_precos
+FROM produtos;
+UPDATE produtos
+SET preco = 75.90
+WHERE nome = 'mouse';
+DELETE FROM produtos
+WHERE categoria = 'obsoleto';
