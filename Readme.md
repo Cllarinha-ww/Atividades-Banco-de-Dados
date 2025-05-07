@@ -15,17 +15,17 @@ ano_publicacao int
 
 INSERT INTO autor
 VALUES(null,
-"Machado de Assis",
-"Memórias póstumas de Brás Cuba",
-"1881"
+"Ali Hazelwood",
+"A Hipótese do Amor",
+"2022"
 );
 
 INSERT INTO autor
 VALUES(null,
-"Ali Hazelwood",
-"Amor,teoricamente",
-"2023",
-"A hipótese do amor",
+"Sarah J. Mass",
+"Trono de Vidro",
+"2012",
+"Cidade de Céu e Sopro",
 "2022"
 );
 
