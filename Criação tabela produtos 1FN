@@ -14,8 +14,8 @@ categoria int
 );
 
 INSERT INTO produtos (id, nome, preco, categoria) VALUES
-(1, 'Smartphone Samsung Galaxy A15', 1199.00, 'Eletrônicos'),
-(2, 'Tênis Nike Revolution 6', 279.99, 'Moda'),
+(1, 'caneta bic vermelha A15', 1199.00, 'Eletrônicos'),
+(2, 'sapatilha melissa 6', 279.99, 'Moda'),
 (3, 'Livro "A Menina que Roubava Livros"', 42.90, 'Livros');
 
 SELECT * FROM produtos;
